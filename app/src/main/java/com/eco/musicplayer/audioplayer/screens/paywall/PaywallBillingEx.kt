@@ -17,7 +17,7 @@ fun PaywallActivity.createInAppBillingListener() = object : InAppBillingListener
     }
 
     override fun onProductsLoaded(products: List<BaseProductDetails>) {
-        loadPrice(products)
+        loadPriceUI(products)
     }
 
     override fun onPurchasesLoaded(purchases: List<BaseProductDetails>) {

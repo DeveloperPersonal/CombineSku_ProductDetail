@@ -8,7 +8,7 @@ fun PaywallActivity.loadSubsPolicyContent() {
 // TODO: Update UI
 }
 
-fun PaywallActivity.loadPrice(products: List<BaseProductDetails>) {
+fun PaywallActivity.loadPriceUI(products: List<BaseProductDetails>) {
     detailsMap[1] = products.find { it.productId == item1ProductId }
     detailsMap[2] = products.find { it.productId == item2ProductId }
     detailsMap[3] = products.find { it.productId == item3ProductId }
