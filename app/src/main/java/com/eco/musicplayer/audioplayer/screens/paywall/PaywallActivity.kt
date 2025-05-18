@@ -34,6 +34,7 @@ class PaywallActivity : AppCompatActivity() {
             insets
         }
         loadSubsPolicyContent()
+        setOnClicks()
         initBilling()
     }
 
